@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/2fa.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <title>2FA</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/img/Logo CPAAS.png" alt="Logo">
+    </div>
+    <div class="links">
+      <ul class="nav-itens">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="2fa.html">2FA</a></li>
+        <li><a href="numeromascara.html">Número Máscara</a></li>
+        <li><a href="google.html">Google Verified Calls</a></li>
+        <li><a href="sms.html">SMS Programável</a></li>
+      </ul>
+    </div>
+    <div class="btn">
+      <div class="login-wrapper">
+        <a href="login.html">
+          <img src="assets/img/black-login.png" class="login-image">
+        </a>
+      </div>
+      <button id="dark-mode-toggle">Modo Escuro</button>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="form">
+      <div class="form-content">
+        <h1> <span style="color: #2aade5;"><b>O que é 2FA?</b> </span> </h1>
+        <p>O 2FA é um procedimento de segurança que garante que serão
+          necessários 2 fatores únicos para liberação de uma ação. O
+          primeiro fator é a senha que o usuário e o segundo pode ser
+          autenticado via token, via detecção de impressão digital,
+          reconhecimento facial, código enviado via sms, entre outros.</p>
+        <p> <b> O <span style="color: #2aade5;"><b>2FA</b> </span> permite que você:</b></p> <br>
+        <ul>
+          <li>
+            <span style="color: #2aade5;"><b>Envie</b> </span> uma senha via SMS, voz ou e-mail para
+            autenticação do usuário.
+          </li>
+          <li>
+            <span style="color: #2aade5;"><b>Adicione</b> </span> uma camada extra de segurança além da
+            senha pessoal.
+          </li>
+          <li>
+            <span style="color: #2aade5;"><b>Ofereça</b> </span> maior segurança para usuários.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-image">
+      <img src="assets/img/2fa 1.svg" alt="Imagem Cadastro">
+    </div>
+  </div>
+
+  <div class="container fade-in">
+    <div class="form-image">
+      <img src="assets/img/2fa 2.svg" alt="Imagem Cadastro">
+    </div>
+    <div class="form">
+      <div class="form-content">
+        <h1><b><span style="color: #2aade5;"><b>Fortaleça a estratégia de segurança de seu negócio.</b> </span>
+        </h1>
+        <p>Adicionar um número de telefone de recuperação a uma conta individual pode bloquear até:</p> <br>
+        <p><span style="color: #2aade5; font-size: 20px;"><b>100%</b></span> dos bots automatizados.</p> <br>
+        <p><span style="color: #2aade5; font-size: 20px;"><b>99%</b></span> dos ataques de phishing em massa</p>
+        <br>
+        <p><span style="color: #2aade5; font-size: 20px;"><b>66%</b></span> dos ataques direcionados.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container fade-in">
+
+    <div class="form">
+      <div class="form-content">
+        <h1> <span style="color: #2aade5;"><b>Como funciona?</b> </span> </h1>
+        <p></p>
+        <ul>
+          <li>
+            Usuário acessa seu site o
+            aplicativo e digita a senha
+            cadastrada para entrar em
+            seu perfil ou completar uma
+            transação. <br> <br>
+
+          </li>
+          <li>
+            A Telecall recebe a tentativa
+            de login e solicita que o
+            usuário insira seu número de
+            telefone para autorizar o
+            acesso. <br> <br>
+          </li>
+          <li>
+            Após inserir seu número, a
+            Telecall envia para o usuário
+            por SMS, chamada ou e-mail
+            um código PIN de uso único. (Esse código PIN é também
+            conhecido como OTP (One
+            Time Password).) <br> <br>
+
+          </li>
+          <li>
+            O usuário insere o código no
+            site ou aplicativo para
+            concluir o processo de
+            verificação.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-image">
+      <img src="assets/img/2fa 3.png" alt="Imagem Cadastro">
+    </div>
+  </div>
+
+  <div class="container fade-in">
+    <div class="form-image">
+      <img src="assets/img/2fa 4.svg" alt="Imagem Cadastro">
+    </div>
+    <div class="form">
+      <div class="form-content">
+        <h1><b><span style="color: #2aade5;"><b>Benefícios</b> </span>
+        </h1>
+        <p>Ofereça <span style="color: #2aade5;"><b>segurança aprimorada</b></span> para seus clientes.</p> <br>
+        <p>Reduza casos de <span style="color: #2aade5;"><b>fraudes e invasões</b></span> e evite o acesso a
+          dados por invasores.</p> <br>
+        <p> Envio de OTP por meio de <span style="color: #2aade5;"><b>vários canais</b></span>, incluindo SMS,
+          voz ou e-mail.</p>
+        <br>
+        <p> <span style="color: #2aade5;"><b>Flexibilidade</b></span> de canais garante que o usuário conseguirá
+          completar a tarefa desejada
+          mesmo quando tiver problema com um deles. Exemplo: Enviar OTP por SMS, em caso de
+          falha, enviar OTP por chamada de voz, em caso de outra falha, enviar por e-mail.</p> <br>
+        <p>API simples e de <span style="color: #2aade5;"><b>rápida implementação.</b></span></p> <br>
+        <p><span style="color: #2aade5;"><b>Plataforma intuitiva</b></span> que permite visualizar relatórios de uso por
+          dia, mês ou ano e
+          pesquisar usando diversos critérios de filtro.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/2fa.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

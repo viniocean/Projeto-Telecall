@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/cadastro.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <title>Cadastrar no CPaaS / CPaaS</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/img/Logo CPAAS.png" alt="Logo">
+    </div>
+    <div class="links">
+    </div>
+    <div class="btn">
+      <div class="login-wrapper">
+        <a href="login.html">
+          <img src="assets/img/black-login.png" class="login-image">
+        </a>
+      </div>
+
+      <button id="dark-mode-toggle">Modo Escuro</button>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="form-image">
+      <img src="assets/img/undraw_online_ad_re_ol62.svg" alt="Imagem Cadastro">
+    </div>
+    <div class="form">
+      <div class="form-content">
+      </div>
+      <form action="#" id="registration-form">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <label for="firstname">Nome</label>
+            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+          </div>
+
+          <div class="input-box">
+            <label for="birthdate">Data de Nascimento</label>
+            <input id="birthdate" type="date" name="birthdate" required>
+          </div>
+
+          <div class="input-box">
+            <label for="mothername">Nome Materno</label>
+            <input id="mothername" type="text" name="mothername" placeholder="Digite o nome da mãe" required>
+          </div>
+
+          <div class="input-box">
+            <label for="cpf">CPF</label>
+            <input id="cpf" type="text" name="cpf" placeholder="Digite o CPF" required>
+          </div>
+
+          <div class="input-box">
+            <label for="cellphone">Telefone Celular</label>
+            <input id="cellphone" type="tel" name="cellphone" placeholder="(xx) xxxxx-xxxx" required>
+          </div>
+
+          <div class="input-box">
+            <label for="phone">Telefone Fixo (opcional)</label>
+            <input id="phone" type="tel" name="phone" placeholder="(xx) xxxx-xxxx">
+          </div>
+
+          <div class="input-box">
+            <label for="cep">CEP</label>
+            <input id="cep" type="text" name="cep" placeholder="Digite o CEP" required>
+            <button type="button" onclick="buscarCep()">Buscar</button>
+          </div>
+
+          <div class="input-box">
+            <label for="rua">Rua</label>
+            <input id="rua" type="text" name="rua" placeholder="Digite a rua" required>
+          </div>
+
+          <div class="input-box">
+            <label for="bairro">Bairro</label>
+            <input id="bairro" type="text" name="bairro" placeholder="Digite o bairro" required>
+          </div>
+
+          <div class="input-box">
+            <label for="cidade">Cidade</label>
+            <input id="cidade" type="text" name="cidade" placeholder="Digite a cidade" required>
+          </div>
+
+          <div class="input-box">
+            <label for="estado">Estado</label>
+            <input id="estado" type="text" name="estado" placeholder="Digite o estado" required>
+          </div>
+
+          <div class="input-box">
+            <label for="email">Número</label>
+            <input id="number" type="number" name="number" placeholder="Digite o número" required>
+          </div>
+
+          <div class="input-box">
+            <label for="email">Login</label>
+            <input id="login" type="text" name="login" placeholder="Digite o login" required>
+          </div>
+
+          <div class="input-box">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password" placeholder="Digite a senha" required>
+          </div>
+
+          <div class="input-box">
+            <label for="confirm-password">Confirmar Senha</label>
+            <input id="confirm-password" type="password" name="confirm-password" placeholder="Confirme a senha"
+              required>
+          </div>
+
+          <div class="gender-inputs">
+            <div class="gender-title">
+              <h6>Gênero</h6>
+            </div>
+
+            <div class="gender-group">
+              <div class="gender-input">
+                <input type="radio" id="female" name="gender">
+                <label for="female">Feminino</label>
+              </div>
+
+              <div class="gender-input">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Masculino</label>
+              </div>
+
+              <div class="gender-input">
+                <input type="radio" id="others" name="gender">
+                <label for="others">Outros</label>
+              </div>
+
+              <div class="gender-input">
+                <input type="radio" id="none" name="gender">
+                <label for="none">Prefiro não dizer</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="continue-button">
+          <button type="submit">Continuar</button>
+        </div>
+    </div>
+    </form>
+  </div>
+  </div>
+  </form>
+  </div>
+  </div>
+
+  <script src="assets/js/cadastro.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>
